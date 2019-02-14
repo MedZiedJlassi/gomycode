@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Questrial|Ropa+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* paramétrage de l'image de fond de la bannière principale*/
+.fond{
+    background-image: url('https://images.unsplash.com/photo-1532972190883-11c46c01030b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=e301c9d8f98f85b993d535cbbeae311e');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 87px;
+    padding: 50px;
+    width: 100%;
+    height: 450px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    
+}
+/* paramétrage du titre principal de la page*/
+.fond .titre{
+    color : #fff;
+    font-family: 'Bree Serif', serif;
+    font-size: 6em;
+    position: relative;
+    top: 40%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+/* paramétrage du titre "Articles"*/
+.titre{
+    margin: 30px 0 40px 30px;
+    font-family: 'Bree serif', serif;
+    font-size: 4em;
+    color: rgb(16, 16, 80);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+/* paramétrage du conteneur des articles*/
+.conteneur{
+    width: 80%;
+    margin: auto;
+}
+/* paramétrage des titres des articles*/
+.article-titre{
+    margin : 0 0 20px 0;
+    font-size: 2em;
+    font-family: 'Bree serif', serif;
+
+}
+/* paramétreage des box des articles */
+.article{
+    width: 49%;
+    height: 350px;
+    padding: 45px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 1;
+    transition: all .3s;
+}
+/* paramétrage couleur foncé des articles + box*/
+.fond-fonce{
+    background-color: #333;
+    color:#eee;
+}
+/* paramétrage couleur claire des articles + box*/
+.fond-clair{
+    background-color: #eee;
+}
+/* allignement des texts*/
+.corp-article{
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: justify;
+    font-size: 1em;
+}
+/*annimation des articles*/
+.article:hover{
+    outline : 6px solid black;
+    transition: all .3s;
+    outline-offset: -6px;
+}
+
+footer{
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+    color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+}
+
+footer h3{
+    padding: 70px 0 70px 0;
+}
