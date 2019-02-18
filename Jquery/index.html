@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Editeur de text js</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="menu">
+        <!--font-family liste-->
+            <select name="police" id="font">
+                <option value="Arial">Arial</option>
+                <option value="Calibri">Calibri</option>
+                <option value="Century Gothic">Century Gothic</option>
+                <option value="Thomas">Thomas</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana">Verdana</option>
+            </select>
+
+            <!--font-size liste-->
+            <select name="taille" id="size">
+                <option value="12px">10</option>
+                <option value="14px">12</option>
+                <option value="16px">14</option>
+                <option value="18px">16</option>
+                <option value="20px">18</option>
+            </select>
+        </div>
+        <button id="bold">B</button>
+        <button id="italic">I</button>
+        <button id="underline">U</button>
+        <textarea name="text" id="editeur" cols="40" rows="10"></textarea>
+        <div id="editor"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

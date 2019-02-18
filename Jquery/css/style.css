@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin-top: 18%;
+    background-color: #cacaca;
+}
+
+.container{
+    text-align : center;
+    margin: auto;
+}
+
+textarea{
+    margin: auto;
+}
+
+#menu{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#editeur{
+    display: block;
+}
+
+#underline{
+    text-decoration: underline;
+}
+#italic{
+    font-style: italic;
+}
+#bold{
+    font-weight: bold;
+}
