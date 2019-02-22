@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #92bde7;
+    color: #485e74;
+    line-height: 1.6em;
+    padding: 1em;
+}
+
+span{
+    color: #fff;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+#titre{
+    text-align: center;
+    margin: 35px 0 35px 0;
+}
+
+.wrapper{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+
+.wrapper > *{
+    padding: 1em;
+}
+
+.description{
+    background:#c9e6ff;
+    padding: 32px;
+}
+
+.description h3 .description ul #titre{
+    margin:0 0 1rem 0;
+
+}
+
+.forms form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px
+}
+
+.forms form .large{
+    grid-column: 1 / 3;
+}
+
+.forms button, .forms form input, .forms form textarea{
+    width:100%;
+    padding:1em;
+    border:1px solid #c9e6ff;
+}
+
+.forms button{
+    background:#c9e6ff;
+    border:0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.forms form p{
+    margin: 0;
+}
+
+.forms form label{
+    display: block;
+}
+
+.forms{
+    background: #f9feff;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+img{
+    width: 315px;
+    height: 232px;
+}
+
+.large #envoyer{
+    margin-top: 15px;
+}
+
+#envoyer:hover{
+    background: #92bde7;
+    color :white;
+    transition: background-color 2s;
+}
+
+@media(min-width:700px){
+    .wrapper{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .wrapper > *{
+        padding:2em;
+    }
+    .description h3, .description ul, #titre{
+        text-align: left;
+    }
+}
